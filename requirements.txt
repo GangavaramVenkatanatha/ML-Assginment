@@ -1,0 +1,19 @@
+
+## 📈 Key Findings
+
+1. **Best Accuracy:** TF-IDF (87.21% F1-Score)
+2. **Fastest Method:** Hashing Vectorizer (2.59s - 3x faster than BoW)
+3. **Best Recall:** TF-IDF (90.97% - catches most positive cases)
+4. **Trade-off:** Hashing sacrifices 2% accuracy for 70% faster processing
+
+## 🚀 How to Run
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Download NLTK data (first time only)
+python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt')"
+
+# 3. Run the experiment
+python assignment.py
